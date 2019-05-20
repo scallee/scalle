@@ -1,4 +1,11 @@
-﻿[TOC]
+﻿---
+title: "Centos 7 安装Hugo"
+date: 2019-05-20T00:47:46+08:00
+draft: false
+description: title
+---
+
+[TOC]
 
 ### 安装Hugo
 

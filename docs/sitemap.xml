@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://scallee.github.io/scalle/centos7-hugo/</loc>
+    <lastmod>2019-05-20T00:47:46+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://scallee.github.io/scalle/first/</loc>
     <lastmod>2019-05-20T00:47:46+08:00</lastmod>
   </url>
@@ -10,11 +15,6 @@
   <url>
     <loc>https://scallee.github.io/scalle/</loc>
     <lastmod>2019-05-20T00:47:46+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scallee.github.io/scalle/centos7-hugo/</loc>
     <priority>0</priority>
   </url>
   
