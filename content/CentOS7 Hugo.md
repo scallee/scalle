@@ -21,7 +21,7 @@ categories: ["hugo learn"]
 [root@localhost hugo] hugo new site /usr/local/myblog
 ```
 
-![hugo new site myblog](/images/hugo-site.png)
+![hugo new site myblog](images/hugo-site.png)
 
 ```sh
 [root@localhost hugo] cd /usr/local/myblog/themes
