@@ -1,0 +1,10 @@
+baseURL = "https://scallee.github.io/scalle/"
+languageCode = "zh-CN"
+title = "Hyde"
+themes = "hyde"
+publishDir = "docs"
+[params]
+    description =  "first hugo"
+[author]
+    name = "scalle"
+    homepage = "https://scallee.github.io/scalle/"
