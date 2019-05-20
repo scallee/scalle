@@ -3,6 +3,10 @@ languageCode = "zh-CN"
 title = "Hyde"
 themes = "hyde"
 publishDir = "docs"
+[taxonomies]
+  tag = "tags"
+  series = "series"
+  category = "categories"
 [params]
     description =  "first hugo"
 [author]

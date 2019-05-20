@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo learn on Hyde</title>
+    <link>https://scallee.github.io/scalle/categories/hugo-learn/</link>
+    <description>Recent content in hugo learn on Hyde</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 20 May 2019 00:47:46 +0800</lastBuildDate>
+    
+	<atom:link href="https://scallee.github.io/scalle/categories/hugo-learn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Centos 7 安装Hugo</title>
+      <link>https://scallee.github.io/scalle/centos7-hugo/</link>
+      <pubDate>Mon, 20 May 2019 00:47:46 +0800</pubDate>
+      
+      <guid>https://scallee.github.io/scalle/centos7-hugo/</guid>
+      <description>[TOC]
+安装Hugo [root@localhost] mkdir /usr/local/hugo # 将hugo_0.55.5_Linux-64bit.tar.gz上传到/usr/local/hugo文件夹中 [root@localhost] cd /usr/local/hugo [root@localhost hugo] tar -zxvf hugo_0.55.5_Linux-64bit.tar.gz [root@localhost hugo] cp ./hugo /usr/local/bin/ [root@localhost hugo] hugo new site /usr/local/myblog  [root@localhost hugo] cd /usr/local/myblog/themes [root@localhost themes] git clone https://github.com/spf13/hyde.git [root@localhost themes] cat &amp;gt;&amp;gt; /usr/local/myblog/config.toml &amp;lt;&amp;lt;end [root@localhost themes] &amp;gt;themes = &amp;quot;hyde&amp;quot; [root@localhost themes] &amp;gt;end [root@localhost themes] cd .. [root@localhost myblog] cp -r /usr/local/myblog/themes/hyde/layouts/* /usr/local/myblog/layouts/ [root@localhost myblog] cp -r /usr/local/myblog/themes/hyde/static/* /usr/local/myblog/static/ [root@localhost myblog] cp -r /usr/local/myblog/themes/hyde/images/ /usr/local/myblog/ [root@localhost myblog] hugo new about.</description>
+    </item>
+    
+  </channel>
+</rss>

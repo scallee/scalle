@@ -1,8 +1,11 @@
-﻿---
+---
 title: "Centos 7 安装Hugo"
 date: 2019-05-20T00:47:46+08:00
 draft: false
 description: title
+tags: ["hugo"]
+series: ["myblog"]
+categories: ["hugo learn"]
 ---
 
 [TOC]
@@ -104,5 +107,7 @@ git push origin master  ：Git会把master分支推送到远程库对应的远�
 #### 参考：
 
 1、 [Hugo配合GitHub搭建博客](https://www.jianshu.com/p/02b3343295ac)
+
 2、[hyde](https://github.com/spf13/hyde)
+
 3、[自建hugo的toc模板](https://orianna-zzo.github.io/sci-tech/2018-08/blog%E5%85%BB%E6%88%90%E8%AE%B016-%E8%87%AA%E5%BB%BAhugo%E7%9A%84toc%E6%A8%A1%E6%9D%BF/)
