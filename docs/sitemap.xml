@@ -4,36 +4,54 @@
   
   <url>
     <loc>https://scallee.github.io/scalle/categories/</loc>
-    <lastmod>2019-05-20T00:47:46+08:00</lastmod>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scallee.github.io/scalle/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scallee.github.io/scalle/categories/linux/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scallee.github.io/scalle/linux%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scallee.github.io/scalle/series/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scallee.github.io/scalle/tags/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scallee.github.io/scalle/tags/linux/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://scallee.github.io/scalle/series/myblog/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://scallee.github.io/scalle/centos7-hugo/</loc>
     <lastmod>2019-05-20T00:47:46+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://scallee.github.io/scalle/first/</loc>
-    <lastmod>2019-05-20T00:47:46+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://scallee.github.io/scalle/</loc>
-    <lastmod>2019-05-20T00:47:46+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scallee.github.io/scalle/series/</loc>
-    <lastmod>2019-05-20T00:47:46+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scallee.github.io/scalle/tags/</loc>
-    <lastmod>2019-05-20T00:47:46+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -44,12 +62,6 @@
   
   <url>
     <loc>https://scallee.github.io/scalle/categories/hugo-learn/</loc>
-    <lastmod>2019-05-20T00:47:46+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://scallee.github.io/scalle/series/myblog/</loc>
     <lastmod>2019-05-20T00:47:46+08:00</lastmod>
     <priority>0</priority>
   </url>

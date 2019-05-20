@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.55.5" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Linux命令 &middot; Hyde</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://scallee.github.io/scalle/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://scallee.github.io/scalle/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://scallee.github.io/scalle/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://scallee.github.io/scalle/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://scallee.github.io/scalle/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="https://scallee.github.io/scalle/favicon.png">
+  <script src="https://scallee.github.io/scalle/js/main.js" type="text/javascript"></script>
+  
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://scallee.github.io/scalle/"><h1>Hyde</h1></a>
+      <p class="lead">
+       first hugo 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://scallee.github.io/scalle/">Home</a> </li>
+        
+      </ul>
+    </nav>
+
+    <p>&copy; 2019. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Linux命令</h1>
+  <time datetime=2019-05-20T00:00:00Z class="post-date">2019-05-20</time>
+  
+
+<h3 id="linux-命令">Linux 命令</h3>
+
+<p>[TOC]</p>
+
+<h4 id="ls-和-ll-的使用方法"><code>ls</code> 和 <code>ll</code>的使用方法：</h4>
+
+<p><code>ll</code>：罗列出当前文件或目录的详细信息，含有时间、读写权限、大小、时间等信息，
+像Windows显示的详细信息。可以理解为 ll 和 ls -l 的功能是相同的.</p>
+
+<h4 id="ls">ls</h4>
+
+<h5 id="1-命令格式">1．命令格式：</h5>
+
+<p><code>ls [-参数]</code></p>
+
+<pre><code>-a 列出目录下的所有文件，包括以 . 开头的隐含文件。
+-A 显示除 “.”和“..”外的所有文件。
+-k 以 k 字节的形式表示文件的大小。
+-l 列出文件的详细信息。
+-s 在每个文件名后输出该文件的大小。
+-t 以时间排序。
+-u 以文件上次被访问的时间排序。
+-S 以文件大小排序。
+-R 列出所有子目录下的文件。
+-p -F 在每个文件名后附上一个字符以说明该文件的类型。&quot;*&quot;:表示可执行的普通文件；&quot;/&quot;:表示目录；“@”:表示符号链接；“|”:表示FIFOs；“=”:表示套接字(sockets)。
+-X 以文件的扩展名(最后一个 . 后的字符)排序。
+-m 横向输出文件名，并以“，”作分格符。
+--color=no 不显示彩色文件名
+   1. 蓝色--&gt;目录
+   2. 绿色--&gt;可执行文件
+   3. 红色--&gt;压缩文件
+   4. 浅蓝色--&gt;链接文件
+   5. 灰色--&gt;其他文件 
+-b 把文件名中不可输出的字符用反斜杠加字符编号(就象在C语言里一样)的形式列出。
+-c 输出文件的 i 节点的修改时间，并以此排序。
+-d 将目录象文件一样显示，而不是显示其下的文件。
+-e 输出时间的全部信息，而不是输出简略信息。
+-f -U 对输出的文件不排序。
+-g 无用。
+-i 输出文件的 i 节点的索引信息。
+-n 用数字的 UID,GID 代替名称。
+-o 显示文件的除组信息外的详细信息。
+-q 用?代替不可输出的字符。
+-r 对目录反向排序。
+-x 按列输出，横向排序。
+-B 不输出以 “~”结尾的备份文件。
+-C 按列输出，纵向排序。
+-G 输出文件的组的信息。
+-L 列出链接文件名而不是链接到的文件。
+-N 不限制文件长度。
+-Q 把输出的文件名用双引号括起来。
+-1 一行只输出一个文件。
+--help 在标准输出上显示帮助信息。
+--version 在标准输出上输出版本信息并退出。
+</code></pre>
+
+<h4 id="wc">wc</h4>
+
+<p>Linux系统中的wc(Word Count)命令的功能为统计指定文件中的字节数、字数、行数，并将统计结果显示输出。</p>
+
+<h5 id="1-命令格式-1">1．命令格式：</h5>
+
+<pre><code>wc [选项]文件...
+</code></pre>
+
+<h5 id="2-命令功能">2．命令功能：</h5>
+
+<p>统计指定文件中的字节数、字数、行数，并将统计结果显示输出。该命令统计指定文件中的字节数、字数、行数。如果没有给出文件名，则从标准输入读取。<code>wc</code>同时也给出所指定文件的总统计数。</p>
+
+<h5 id="3-命令参数">3．命令参数：</h5>
+
+<pre><code>-c 统计字节数。
+-l 统计行数。
+-m 统计字符数。这个标志不能与 -c 标志一起使用。
+-w 统计字数。一个字被定义为由空白、跳格或换行字符分隔的字符串。
+-L 打印最长行的长度。
+-help 显示帮助信息
+--version 显示版本信息
+</code></pre>
+
+<h3 id="linux文件系统">Linux文件系统</h3>
+
+<h4 id="bin目录">bin目录：</h4>
+
+<p>存放可执行程序的目录</p>
+
+<p><code>usr</code> 指 <code>Unix System Resource</code></p>
+
+<p><code>/usr/bin</code>系统预装的可执行程序。</p>
+
+<p><code>/usr/local/bin</code>用户放置的可执行程序的地方。</p>
+
+<pre><code class="language-sh">[root@localhost] echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/usr/local/java/jdk1.8.0_161/bin:/usr/local/java/jdk1.8.0_161//bin:/root/bin
+# 这里/usr/local/bin优先于/usr/bin
+</code></pre>
+
+ <br>
+
+  <div class="tags">
+	<strong>tags:</strong>
+  
+	<a href="/scalle/tags/linux">linux</a>
+  
+  </div>
+
+
+  <div class="series">
+	<strong>series:</strong>
+  
+	<a href="/scalle/series/myblog">myblog</a>
+  
+  </div>
+
+
+  <div class="categories">
+	<strong>categories:</strong>
+  
+	<a href="/scalle/categories/linux">Linux</a>
+  
+  </div>
+
+
+    </main>
+
+    
+<script type="text/javascript">
+var  imgs = document.getElementsByTagName("img");
+if (imgs.length > 0){
+    for (var i=0;i<imgs.length;i++){
+        var v ="https:\/\/scallee.github.io\/scalle\/"+ imgs[i].getAttribute("src");
+        imgs[i].setAttribute("src",v);
+        console.log(v);
+    }
+}
+</script>
+  </body>
+</html>
