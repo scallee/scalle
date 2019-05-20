@@ -6,5 +6,15 @@
     </main>
 
     {{ template "_internal/google_analytics_async.html" . }}
+<script type="text/javascript">
+var  imgs = document.getElementsByTagName("img");
+if (imgs.length > 0){
+    for (var i=0;i<imgs.length;i++){
+        var v ="{{ .Site.BaseURL }}"+ imgs[i].getAttribute("src");
+        imgs[i].setAttribute("src",v);
+        console.log(v);
+    }
+}
+</script>
   </body>
 </html>

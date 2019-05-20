@@ -24,7 +24,7 @@
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ .Site.BaseURL }}apple-touch-icon-144-precomposed.png">
   <link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.png">
-
+  <script src="{{ .Site.BaseURL }}js/main.js" type="text/javascript"></script>
   <!-- RSS etc -->
   {{ range .AlternativeOutputFormats -}}
     {{ printf `<link href="%s" rel="%s" type="%s" title="%s" />` .Permalink .Rel .MediaType.Type $.Site.Title | safeHTML }}
