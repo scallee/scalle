@@ -17,7 +17,17 @@
       <pubDate>Mon, 20 May 2019 00:47:46 +0800</pubDate>
       
       <guid>https://scallee.github.io/scalle/first/</guid>
-      <description>���ã����磡����</description>
+      <description>你好世界！！</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://scallee.github.io/scalle/centos7-hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://scallee.github.io/scalle/centos7-hugo/</guid>
+      <description>[TOC]
+安装Hugo [root@localhost] mkdir /usr/local/hugo # 将hugo_0.55.5_Linux-64bit.tar.gz上传到/usr/local/hugo文件夹中 [root@localhost] cd /usr/local/hugo [root@localhost hugo] tar -zxvf hugo_0.55.5_Linux-64bit.tar.gz [root@localhost hugo] cp ./hugo /usr/local/bin/ [root@localhost hugo] hugo new site /usr/local/myblog  [root@localhost hugo] cd /usr/local/myblog/themes [root@localhost themes] git clone https://github.com/spf13/hyde.git [root@localhost themes] cat &amp;gt;&amp;gt; /usr/local/myblog/config.toml &amp;lt;&amp;lt;end [root@localhost themes] &amp;gt;themes = &amp;quot;hyde&amp;quot; [root@localhost themes] &amp;gt;end [root@localhost themes] cd .. [root@localhost myblog] cp -r /usr/local/myblog/themes/hyde/layouts/* /usr/local/myblog/layouts/ [root@localhost myblog] cp -r /usr/local/myblog/themes/hyde/static/* /usr/local/myblog/static/ [root@localhost myblog] cp -r /usr/local/myblog/themes/hyde/images/ /usr/local/myblog/ [root@localhost myblog] hugo new about.</description>
     </item>
     
   </channel>
